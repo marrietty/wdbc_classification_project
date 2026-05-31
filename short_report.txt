@@ -1,0 +1,16 @@
+Short Report on WDBC Classification Project
+
+1. Which classifiers did you test?
+- I tested four classifiers. SVM, Decision Tree, KNN, and Random Forest.
+
+2. Which classifier gave the best accuracy?
+- The Decision Tree classifier and the Random Forest classifier both gave a perfect accuracy. The Decision Tree classifier was chosen as the classifier because it was the first one listed with the highest score.
+
+3. What does the confusion matrix show?
+- Based on the confusion matrix of the Decision Tree classifier, all 212 malignant samples were predicted correctly as malignant, and all 357 benign samples were predicted correctly as benign. There were no positives and no false negatives. In other words, the WDBC Classification Project model did not make any mistakes whatsoever on the training data.
+
+4. Was the model good at predicting both classes?
+- Yes, the WDBC Classification Project model was good at predicting both benign cases in the training set. The training accuracy of 1.0 makes me think the model might be overfitting. In a project, we would use a separate test set to get a fair idea of how the model is doing.
+
+5. Why is documentation important in an open-source ML project?
+- Documentation is important because it helps other developers understand the Project code. It tells them how the code or function works and what the project is supposed to do. Without documentation, it is hard for anyone else to use or contribute to a project. Good documentation also makes it easier for me to revisit my project code later.
